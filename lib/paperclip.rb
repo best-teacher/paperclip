@@ -51,6 +51,7 @@ require 'paperclip/helpers'
 require 'mime/types'
 require 'logger'
 require 'cocaine'
+require 'open-uri'
 
 require 'paperclip/railtie' if defined?(Rails)
 
@@ -223,3 +224,4 @@ require 'paperclip/io_adapters/stringio_adapter'
 require 'paperclip/io_adapters/nil_adapter'
 require 'paperclip/io_adapters/attachment_adapter'
 require 'paperclip/io_adapters/uploaded_file_adapter'
+require 'paperclip/io_adapters/uri_adapter'
